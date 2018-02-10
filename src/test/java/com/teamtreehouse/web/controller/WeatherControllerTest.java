@@ -20,7 +20,7 @@ public class WeatherControllerTest {
   }
 
   @Test
-  public void home_ShouldRenderDetailView() throws Exception {
+  public void home_ShoudldRenderDetailView() throws Exception {
     mockMvc.perform(get("/"))
         .andExpect(view().name("weather/detail"));
   }
